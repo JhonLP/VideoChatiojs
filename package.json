@@ -4,9 +4,9 @@
   "description": "A realtime chat server using animated gif-like videos",
   "main": "server.js",
   "scripts": {
-    "postinstall" : "npm run build-js",
-    "build-js" : "browserify client/app.js -o public/app.js",
-    "start" : "node server.js"
+    "postinstall": "npm run build-js",
+    "build-js": "browserify client/app.js -o public/app.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/JhonLP/VideoChatiojs",
   "dependencies": {
+    "course": "0.0.1",
     "st": "^0.5.4",
     "webrtc2images": "^1.4.4"
   },
