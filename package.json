@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/JhonLP/VideoChatiojs",
   "dependencies": {
-    "st": "^0.5.4"
+    "st": "^0.5.4",
+    "webrtc2images": "^1.4.4"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.3"
   }
 }
