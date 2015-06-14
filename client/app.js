@@ -2,11 +2,11 @@ const xhr = require('xhr')
 const webrtc2images = require('webrtc2images')
 
 const rtc = new webrtc2images({
-	width : 200,
-	heigth : 200,
-	frames : 10,
+	width : 400,
+	heigth : 400,
+	frames : 20,
 	type : 'image/jpeg',
-	quality : 0.4,
+	quality : 0.6,
 	interval : 200
 })
 
